@@ -18,17 +18,38 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalBreakdown = document.getElementById('modal-breakdown');
     const modalInfractionsList = document.getElementById('modal-infractions-list');
 
+    // ------------------------------------------------------------
+    // CONFIGURACIÓN DE MÁXIMOS POR GRUPO (Modifica los números según corresponda)
+    // ------------------------------------------------------------
+    const maximosPorGrupo = {
+        "201": { trabajos: 60, actitudinal: 20, extras: 20 },
+        "202": { trabajos: 50, actitudinal: 30, extras: 20 },
+        "203": { trabajos: 56, actitudinal: 24, extras: 20 },
+        "204": { trabajos: 60, actitudinal: 20, extras: 20 },
+        "205": { trabajos: 60, actitudinal: 20, extras: 20 },
+        
+        "401": { trabajos: 40, proyecto: 30, actitudinal: 20, extras: 10 },
+        "402": { trabajos: 45, proyecto: 35, actitudinal: 10, extras: 10 },
+        "403": { trabajos: 50, proyecto: 30, actitudinal: 10, extras: 10 },
+        "404": { trabajos: 40, proyecto: 30, actitudinal: 20, extras: 10 },
+        "405": { trabajos: 40, proyecto: 30, actitudinal: 20, extras: 10 },
+        "406": { trabajos: 40, proyecto: 30, actitudinal: 20, extras: 10 }
+    };
+
     let currentStudent = null;
     let currentSubject = '';
     let pressTimer = null;
     let explosionTimeout = null;
     const holdDuration = 4000;
+    
+    // Almacena los topes numéricos del grupo seleccionado
+    let currentGroupMaximos = null;
 
     groupSelect.addEventListener('change', (e) => {
         const group = e.target.value;
         if (!group) return;
 
-        let data = null;
+        let data = [];
         if (group.startsWith('2')) {
             currentSubject = 'CULTURA DIGITAL';
             data = window.data200[group] || [];
@@ -36,6 +57,9 @@ document.addEventListener('DOMContentLoaded', () => {
             currentSubject = 'MATEMÁTICAS';
             data = window.data400[group] || [];
         }
+
+        // Obtener los límites del grupo actual desde el mapa local
+        currentGroupMaximos = maximosPorGrupo[group] || null;
 
         guidanceText.textContent = 'Busca tu nombre para ver tu calificación';
         subjectName.textContent = currentSubject;
@@ -164,19 +188,25 @@ document.addEventListener('DOMContentLoaded', () => {
         modalGradeValue.textContent = grade.toFixed(1);
         modalGradeValue.className = `modal-grade-value ${colorClass}`;
         
+        // Formatear las leyendas dinámicas " de X" leyendo el mapa de máximos
+        const maxT = currentGroupMaximos ? ` de ${currentGroupMaximos.trabajos}` : '';
+        const maxA = currentGroupMaximos ? ` de ${currentGroupMaximos.actitudinal}` : '';
+        const maxE = currentGroupMaximos ? ` de ${currentGroupMaximos.extras}` : '';
+        const maxP = currentGroupMaximos ? ` de ${currentGroupMaximos.proyecto}` : '';
+        
         let breakdownHTML = '';
         if (currentSubject === 'CULTURA DIGITAL') {
             breakdownHTML = `
-                <div class="breakdown-row"><span>Trabajos:</span><span>${currentStudent.trabajos} pts</span></div>
-                <div class="breakdown-row"><span>Actitudinal:</span><span>${currentStudent.actitudinal} pts</span></div>
-                <div class="breakdown-row"><span>Extras:</span><span>${currentStudent.extras} pts</span></div>
+                <div class="breakdown-row"><span>Trabajos:</span><span>${currentStudent.trabajos}${maxT} pts</span></div>
+                <div class="breakdown-row"><span>Actitudinal:</span><span>${currentStudent.actitudinal}${maxA} pts</span></div>
+                <div class="breakdown-row"><span>Extras:</span><span>${currentStudent.extras}${maxE} pts</span></div>
             `;
         } else if (currentSubject === 'MATEMÁTICAS') {
             breakdownHTML = `
-                <div class="breakdown-row"><span>Trabajos:</span><span>${currentStudent.trabajos} pts</span></div>
-                <div class="breakdown-row"><span>Proyecto:</span><span>${currentStudent.proyecto} pts</span></div>
-                <div class="breakdown-row"><span>Actitudinal:</span><span>${currentStudent.actitudinal} pts</span></div>
-                <div class="breakdown-row"><span>Extras:</span><span>${currentStudent.extras} pts</span></div>
+                <div class="breakdown-row"><span>Trabajos:</span><span>${currentStudent.trabajos}${maxT} pts</span></div>
+                <div class="breakdown-row"><span>Proyecto:</span><span>${currentStudent.proyecto}${maxP} pts</span></div>
+                <div class="breakdown-row"><span>Actitudinal:</span><span>${currentStudent.actitudinal}${maxA} pts</span></div>
+                <div class="breakdown-row"><span>Extras:</span><span>${currentStudent.extras}${maxE} pts</span></div>
             `;
         }
         modalBreakdown.innerHTML = breakdownHTML;
