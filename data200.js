@@ -5,7 +5,9 @@ window.data200 = {
             "trabajos": 58,
             "actitudinal": 15,
             "extras": 5,
-            "infracciones": null,
+            "infracciones": [
+                { "concepto": "Uso de celular en clase", "fecha": "12/05/2026" }
+            ],
             "puntosTotales": 78,
             "calificacionFinal": 7.8
         },
@@ -14,7 +16,11 @@ window.data200 = {
             "trabajos": 65,
             "actitudinal": 20,
             "extras": 0,
-            "infracciones": null,
+            "infracciones": [
+                { "concepto": "No trabajar en sesión práctica", "fecha": "05/05/2026" },
+                { "concepto": "Alimentos en el laboratorio", "fecha": "22/04/2026" },
+                { "concepto": "Falta de respeto al laboratorio", "fecha": "19/05/2026" }
+            ],
             "puntosTotales": 85,
             "calificacionFinal": 8.5
         },
@@ -23,7 +29,10 @@ window.data200 = {
             "trabajos": 42,
             "actitudinal": 10,
             "extras": 0,
-            "infracciones": null,
+            "infracciones": [
+                { "concepto": "Uso de celular en clase", "fecha": "14/05/2026" },
+                { "concepto": "Desorden reiterado", "fecha": "19/05/2026" }
+            ],
             "puntosTotales": 52,
             "calificacionFinal": 5.2
         },
@@ -32,7 +41,9 @@ window.data200 = {
             "trabajos": 70,
             "actitudinal": 20,
             "extras": 10,
-            "infracciones": null,
+            "infracciones": [
+                { "concepto": "Alimentos en el laboratorio", "fecha": "12/05/2026" }
+            ],
             "puntosTotales": 100,
             "calificacionFinal": 10.0
         },
@@ -41,7 +52,12 @@ window.data200 = {
             "trabajos": 61,
             "actitudinal": 15,
             "extras": 5,
-            "infracciones": null,
+            "infracciones": [
+                { "concepto": "No trabajar en sesión práctica", "fecha": "28/04/2026" },
+                { "concepto": "Uso de celular en clase", "fecha": "05/05/2026" },
+                { "concepto": "Desorden reiterado", "fecha": "12/05/2026" },
+                { "concepto": "Falta de respeto al laboratorio", "fecha": "19/05/2026" }
+            ],
             "puntosTotales": 81,
             "calificacionFinal": 8.1
         },
@@ -50,7 +66,10 @@ window.data200 = {
             "trabajos": 50,
             "actitudinal": 20,
             "extras": 0,
-            "infracciones": null,
+            "infracciones": [
+                { "concepto": "Falta de respeto al laboratorio", "fecha": "11/05/2026" },
+                { "concepto": "Uso de celular en clase", "fecha": "18/05/2026" }
+            ],
             "puntosTotales": 70,
             "calificacionFinal": 7.0
         },
@@ -59,7 +78,11 @@ window.data200 = {
             "trabajos": 68,
             "actitudinal": 15,
             "extras": 10,
-            "infracciones": null,
+            "infracciones": [
+                { "concepto": "No trabajar en sesión práctica", "fecha": "06/05/2026" },
+                { "concepto": "Alimentos en el laboratorio", "fecha": "13/05/2026" },
+                { "concepto": "Uso de celular en clase", "fecha": "20/05/2026" }
+            ],
             "puntosTotales": 93,
             "calificacionFinal": 9.3
         },
@@ -68,7 +91,9 @@ window.data200 = {
             "trabajos": 55,
             "actitudinal": 10,
             "extras": 0,
-            "infracciones": null,
+            "infracciones": [
+                { "concepto": "Desorden reiterado", "fecha": "15/05/2026" }
+            ],
             "puntosTotales": 65,
             "calificacionFinal": 6.5
         },
@@ -77,7 +102,13 @@ window.data200 = {
             "trabajos": 48,
             "actitudinal": 20,
             "extras": 5,
-            "infracciones": null,
+            "infracciones": [
+                { "concepto": "Uso de celular en clase", "fecha": "30/04/2026" },
+                { "concepto": "Alimentos en el laboratorio", "fecha": "07/05/2026" },
+                { "concepto": "No trabajar en sesión práctica", "fecha": "14/05/2026" },
+                { "concepto": "Desorden reiterado", "fecha": "21/05/2026" },
+                { "concepto": "Falta de respeto al laboratorio", "fecha": "28/05/2026" }
+            ],
             "puntosTotales": 73,
             "calificacionFinal": 7.3
         },
@@ -86,7 +117,10 @@ window.data200 = {
             "trabajos": 63,
             "actitudinal": 15,
             "extras": 0,
-            "infracciones": null,
+            "infracciones": [
+                { "concepto": "Alimentos en el laboratorio", "fecha": "04/05/2026" },
+                { "concepto": "Uso de celular en clase", "fecha": "11/05/2026" }
+            ],
             "puntosTotales": 78,
             "calificacionFinal": 7.8
         },
@@ -95,7 +129,9 @@ window.data200 = {
             "trabajos": 52,
             "actitudinal": 20,
             "extras": 5,
-            "infracciones": null,
+            "infracciones": [
+                { "concepto": "No trabajar en sesión práctica", "fecha": "19/05/2026" }
+            ],
             "puntosTotales": 77,
             "calificacionFinal": 7.7
         },
@@ -104,7 +140,11 @@ window.data200 = {
             "trabajos": 38,
             "actitudinal": 10,
             "extras": 0,
-            "infracciones": null,
+            "infracciones": [
+                { "concepto": "Desorden reiterado", "fecha": "22/04/2026" },
+                { "concepto": "Uso de celular en clase", "fecha": "29/04/2026" },
+                { "concepto": "No trabajar en sesión práctica", "fecha": "06/05/2026" }
+            ],
             "puntosTotales": 48,
             "calificacionFinal": 4.8
         },
@@ -113,7 +153,10 @@ window.data200 = {
             "trabajos": 66,
             "actitudinal": 20,
             "extras": 10,
-            "infracciones": null,
+            "infracciones": [
+                { "concepto": "Alimentos en el laboratorio", "fecha": "15/05/2026" },
+                { "concepto": "Uso de celular en clase", "fecha": "22/05/2026" }
+            ],
             "puntosTotales": 96,
             "calificacionFinal": 9.6
         },
@@ -122,7 +165,12 @@ window.data200 = {
             "trabajos": 57,
             "actitudinal": 15,
             "extras": 0,
-            "infracciones": null,
+            "infracciones": [
+                { "concepto": "No trabajar en sesión práctica", "fecha": "08/05/2026" },
+                { "concepto": "Falta de respeto al laboratorio", "fecha": "15/05/2026" },
+                { "concepto": "Uso de celular en clase", "fecha": "22/05/2026" },
+                { "concepto": "Desorden reiterado", "fecha": "29/05/2026" }
+            ],
             "puntosTotales": 72,
             "calificacionFinal": 7.2
         },
@@ -131,7 +179,9 @@ window.data200 = {
             "trabajos": 45,
             "actitudinal": 15,
             "extras": 5,
-            "infracciones": null,
+            "infracciones": [
+                { "concepto": "Alimentos en el laboratorio", "fecha": "12/05/2026" }
+            ],
             "puntosTotales": 65,
             "calificacionFinal": 6.5
         },
@@ -140,7 +190,10 @@ window.data200 = {
             "trabajos": 69,
             "actitudinal": 20,
             "extras": 10,
-            "infracciones": null,
+            "infracciones": [
+                { "concepto": "Uso de celular en clase", "fecha": "05/05/2026" },
+                { "concepto": "Desorden reiterado", "fecha": "19/05/2026" }
+            ],
             "puntosTotales": 99,
             "calificacionFinal": 9.9
         },
@@ -149,7 +202,11 @@ window.data200 = {
             "trabajos": 54,
             "actitudinal": 10,
             "extras": 0,
-            "infracciones": null,
+            "infracciones": [
+                { "concepto": "No trabajar en sesión práctica", "fecha": "21/04/2026" },
+                { "concepto": "Alimentos en el laboratorio", "fecha": "28/04/2026" },
+                { "concepto": "Uso de celular en clase", "fecha": "05/05/2026" }
+            ],
             "puntosTotales": 64,
             "calificacionFinal": 6.4
         },
@@ -158,7 +215,11 @@ window.data200 = {
             "trabajos": 60,
             "actitudinal": 20,
             "extras": 5,
-            "infracciones": null,
+            "infracciones": [
+                { "concepto": "Falta de respeto al laboratorio", "fecha": "14/05/2026" },
+                { "concepto": "Uso de celular en clase", "fecha": "21/05/2026" },
+                { "concepto": "Alimentos en el laboratorio", "fecha": "28/05/2026" }
+            ],
             "puntosTotales": 85,
             "calificacionFinal": 8.5
         },
@@ -167,7 +228,12 @@ window.data200 = {
             "trabajos": 41,
             "actitudinal": 15,
             "extras": 0,
-            "infracciones": null,
+            "infracciones": [
+                { "concepto": "No trabajar en sesión práctica", "fecha": "05/05/2026" },
+                { "concepto": "Desorden reiterado", "fecha": "12/05/2026" },
+                { "concepto": "Uso de celular en clase", "fecha": "19/05/2026" },
+                { "concepto": "Alimentos en el laboratorio", "fecha": "26/05/2026" }
+            ],
             "puntosTotales": 56,
             "calificacionFinal": 5.6
         },
@@ -176,7 +242,9 @@ window.data200 = {
             "trabajos": 64,
             "actitudinal": 20,
             "extras": 5,
-            "infracciones": null,
+            "infracciones": [
+                { "concepto": "Uso de celular en clase", "fecha": "18/05/2026" }
+            ],
             "puntosTotales": 89,
             "calificacionFinal": 8.9
         },
@@ -185,7 +253,10 @@ window.data200 = {
             "trabajos": 59,
             "actitudinal": 15,
             "extras": 10,
-            "infracciones": null,
+            "infracciones": [
+                { "concepto": "Falta de respeto al laboratorio", "fecha": "30/04/2026" },
+                { "concepto": "No trabajar en sesión práctica", "fecha": "07/05/2026" }
+            ],
             "puntosTotales": 84,
             "calificacionFinal": 8.4
         },
@@ -194,7 +265,11 @@ window.data200 = {
             "trabajos": 47,
             "actitudinal": 10,
             "extras": 0,
-            "infracciones": null,
+            "infracciones": [
+                { "concepto": "Desorden reiterado", "fecha": "11/05/2026" },
+                { "concepto": "Alimentos en el laboratorio", "fecha": "18/05/2026" },
+                { "concepto": "Uso de celular en clase", "fecha": "25/05/2026" }
+            ],
             "puntosTotales": 57,
             "calificacionFinal": 5.7
         },
@@ -203,7 +278,10 @@ window.data200 = {
             "trabajos": 67,
             "actitudinal": 20,
             "extras": 5,
-            "infracciones": null,
+            "infracciones": [
+                { "concepto": "Uso de celular en clase", "fecha": "13/05/2026" },
+                { "concepto": "No trabajar en sesión práctica", "fecha": "27/05/2026" }
+            ],
             "puntosTotales": 92,
             "calificacionFinal": 9.2
         }
