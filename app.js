@@ -1,4 +1,8 @@
+// app.js
 document.addEventListener('DOMContentLoaded', () => {
+    // Variable de configuración global para controlar la visualización de los criterios
+    const MOSTRAR_CRITERIOS = false;
+
     const groupSelect = document.getElementById('group-select');
     const guidanceText = document.getElementById('guidance-text');
     const subjectIndicator = document.getElementById('subject-indicator');
@@ -79,10 +83,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function getFeedbackMessage(grade) {
         if (grade === 10.0) return 'FELICIDADES';
-        if (grade >= 9.0 && grade <= 9.9) return 'EXCELENTE';
-        if (grade >= 8.0 && grade <= 8.9) return 'MUY BIEN';
-        if (grade >= 7.0 && grade <= 7.9) return 'BIEN';
-        if (grade >= 6.0 && grade <= 6.9) return 'SI SE PUDO';
+        if (grade >= 9.0 && grade <= 9.9) return 'MUY BIEN';
+        if (grade >= 8.0 && grade <= 8.9) return 'BIEN';
+        if (grade >= 7.0 && grade <= 7.9) return 'OK';
+        if (grade >= 6.0 && grade <= 6.9) return 'POR POQUITO...';
         return 'HAY QUE ESFORZARSE MÁS';
     }
 
@@ -188,28 +192,58 @@ document.addEventListener('DOMContentLoaded', () => {
         modalGradeValue.textContent = grade.toFixed(1);
         modalGradeValue.className = `modal-grade-value ${colorClass}`;
         
-        // Formatear las leyendas dinámicas " de X" leyendo el mapa de máximos
-        const maxT = currentGroupMaximos ? ` de ${currentGroupMaximos.trabajos}` : '';
-        const maxA = currentGroupMaximos ? ` de ${currentGroupMaximos.actitudinal}` : '';
-        const maxE = currentGroupMaximos ? ` de ${currentGroupMaximos.extras}` : '';
-        const maxP = currentGroupMaximos ? ` de ${currentGroupMaximos.proyecto}` : '';
-        
-        let breakdownHTML = '';
-        if (currentSubject === 'CULTURA DIGITAL') {
-            breakdownHTML = `
-                <div class="breakdown-row"><span>Trabajos:</span><span>${currentStudent.trabajos}${maxT} pts</span></div>
-                <div class="breakdown-row"><span>Actitudinal:</span><span>${currentStudent.actitudinal}${maxA} pts</span></div>
-                <div class="breakdown-row"><span>Extras:</span><span>${currentStudent.extras}${maxE} pts</span></div>
-            `;
-        } else if (currentSubject === 'MATEMÁTICAS') {
-            breakdownHTML = `
-                <div class="breakdown-row"><span>Trabajos:</span><span>${currentStudent.trabajos}${maxT} pts</span></div>
-                <div class="breakdown-row"><span>Proyecto:</span><span>${currentStudent.proyecto}${maxP} pts</span></div>
-                <div class="breakdown-row"><span>Actitudinal:</span><span>${currentStudent.actitudinal}${maxA} pts</span></div>
-                <div class="breakdown-row"><span>Extras:</span><span>${currentStudent.extras}${maxE} pts</span></div>
-            `;
+        if (MOSTRAR_CRITERIOS) {
+            modalBreakdown.style.display = '';
+            
+            // Formatear las leyendas dinámicas " de X" leyendo el mapa de máximos
+            const maxT = currentGroupMaximos ? ` de ${currentGroupMaximos.trabajos}` : '';
+            const maxA = currentGroupMaximos ? ` de ${currentGroupMaximos.actitudinal}` : '';
+            const maxE = currentGroupMaximos ? ` de ${currentGroupMaximos.extras}` : '';
+            const maxP = currentGroupMaximos ? ` de ${currentGroupMaximos.proyecto}` : '';
+            
+            // Función auxiliar para calcular el porcentaje real obtenido (0 a 100)
+            function obtenerPorcentaje(actual, maximo) {
+                if (!maximo) return 0;
+                return Math.max(0, Math.min(100, (actual / maximo) * 100));
+            }
+
+            // Función auxiliar para determinar la clase de color sólido según tercios del porcentaje
+            function obtenerClaseColorBarra(porcentaje) {
+                if (porcentaje < 33.33) return 'bg-red';
+                if (porcentaje < 66.66) return 'bg-yellow';
+                return 'bg-green';
+            }
+
+            // Calcular porcentajes reales conseguidos por el estudiante
+            const pctT = currentGroupMaximos ? obtenerPorcentaje(currentStudent.trabajos, currentGroupMaximos.trabajos) : 0;
+            const pctA = currentGroupMaximos ? obtenerPorcentaje(currentStudent.actitudinal, currentGroupMaximos.actitudinal) : 0;
+            const pctP = currentGroupMaximos ? obtenerPorcentaje(currentStudent.proyecto, currentGroupMaximos.proyecto) : 0;
+
+            // Obtener la clase de color correspondiente a cada porcentaje obtenido
+            const colorT = obtenerClaseColorBarra(pctT);
+            const colorA = obtenerClaseColorBarra(pctA);
+            const colorP = obtenerClaseColorBarra(pctP);
+
+            let breakdownHTML = '';
+            if (currentSubject === 'CULTURA DIGITAL') {
+                breakdownHTML = `
+                    <div class="breakdown-row"><span>Trabajos:</span><span>${currentStudent.trabajos}${maxT} pts</span><div class="progress-track"><div class="progress-fill-bar ${colorT}" style="width: ${pctT}%;"></div></div></div>
+                    <div class="breakdown-row"><span>Actitudinal:</span><span>${currentStudent.actitudinal}${maxA} pts</span><div class="progress-track"><div class="progress-fill-bar ${colorA}" style="width: ${pctA}%;"></div></div></div>
+                    <div class="breakdown-row"><span>Extras:</span><span>${currentStudent.extras}${maxE} pts</span></div>
+                `;
+            } else if (currentSubject === 'MATEMÁTICAS') {
+                breakdownHTML = `
+                    <div class="breakdown-row"><span>Trabajos:</span><span>${currentStudent.trabajos}${maxT} pts</span><div class="progress-track"><div class="progress-fill-bar ${colorT}" style="width: ${pctT}%;"></div></div></div>
+                    <div class="breakdown-row"><span>Proyecto:</span><span>${currentStudent.proyecto}${maxP} pts</span><div class="progress-track"><div class="progress-fill-bar ${colorP}" style="width: ${pctP}%;"></div></div></div>
+                    <div class="breakdown-row"><span>Actitudinal:</span><span>${currentStudent.actitudinal}${maxA} pts</span><div class="progress-track"><div class="progress-fill-bar ${colorA}" style="width: ${pctA}%;"></div></div></div>
+                    <div class="breakdown-row"><span>Extras:</span><span>${currentStudent.extras}${maxE} pts</span></div>
+                `;
+            }
+            modalBreakdown.innerHTML = breakdownHTML;
+        } else {
+            modalBreakdown.innerHTML = '';
+            modalBreakdown.style.display = 'none';
         }
-        modalBreakdown.innerHTML = breakdownHTML;
 
         modalInfractionsList.innerHTML = '';
         if (currentStudent.infracciones && currentStudent.infracciones.length > 0) {
