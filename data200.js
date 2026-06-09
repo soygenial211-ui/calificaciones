@@ -9,7 +9,7 @@ window.data200 = {
                 { "concepto": "Uso de celular en clase", "fecha": "12/05/2026" }
             ],
             "puntosTotales": 78,
-            "calificacionFinal": 7.8
+            "calificacionFinal": 4
         },
         {
             "nombre": "AVITIA REYES INGRID DENISSE",
@@ -22,7 +22,7 @@ window.data200 = {
                 { "concepto": "Falta de respeto al laboratorio", "fecha": "19/05/2026" }
             ],
             "puntosTotales": 85,
-            "calificacionFinal": 8.5
+            "calificacionFinal": 5
         },
         {
             "nombre": "BENITEZ SANDOVAL XIMENA",
@@ -34,7 +34,7 @@ window.data200 = {
                 { "concepto": "Desorden reiterado", "fecha": "19/05/2026" }
             ],
             "puntosTotales": 52,
-            "calificacionFinal": 5.2
+            "calificacionFinal": 6
         },
         {
             "nombre": "BETANCOURT ALDO IVAN",
@@ -45,7 +45,7 @@ window.data200 = {
                 { "concepto": "Alimentos en el laboratorio", "fecha": "12/05/2026" }
             ],
             "puntosTotales": 100,
-            "calificacionFinal": 10.0
+            "calificacionFinal": 7
         },
         {
             "nombre": "CABALLERO LOPEZ NATALIA ISABELA",
@@ -59,7 +59,7 @@ window.data200 = {
                 { "concepto": "Falta de respeto al laboratorio", "fecha": "19/05/2026" }
             ],
             "puntosTotales": 81,
-            "calificacionFinal": 8.1
+            "calificacionFinal": 8
         },
         {
             "nombre": "CAMACHO RIVERA DALIA",
@@ -71,7 +71,7 @@ window.data200 = {
                 { "concepto": "Uso de celular en clase", "fecha": "18/05/2026" }
             ],
             "puntosTotales": 70,
-            "calificacionFinal": 7.0
+            "calificacionFinal": 9
         },
         {
             "nombre": "FRIAS PEREZ ZAMARA GUADALUPE",
@@ -84,7 +84,7 @@ window.data200 = {
                 { "concepto": "Uso de celular en clase", "fecha": "20/05/2026" }
             ],
             "puntosTotales": 93,
-            "calificacionFinal": 9.3
+            "calificacionFinal": 9.9
         },
         {
             "nombre": "FUENTES RODRIGUEZ JOSE MARIA",
@@ -95,7 +95,7 @@ window.data200 = {
                 { "concepto": "Desorden reiterado", "fecha": "15/05/2026" }
             ],
             "puntosTotales": 65,
-            "calificacionFinal": 6.5
+            "calificacionFinal": 10
         },
         {
             "nombre": "GALLEGOS GALLEGOS WENDY SYLEY",
