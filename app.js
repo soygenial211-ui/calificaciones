@@ -23,6 +23,25 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalInfractionsList = document.getElementById('modal-infractions-list');
 
     // ------------------------------------------------------------
+    // CONFIGURACIÓN DE CONTRASEÑAS POR GRUPO
+    // Modifica los textos entre comillas para asignar la contraseña de cada grupo
+    // ------------------------------------------------------------
+    const contrasenasPorGrupo = {
+        "201": "882847",
+        "202": "533247",
+        "203": "441052",
+        "204": "435827",
+        "205": "262689",
+        
+        "401": "854517",
+        "402": "586834",
+        "403": "106920",
+        "404": "451657",
+        "405": "246969",
+        "406": "777736"
+    };
+
+    // ------------------------------------------------------------
     // CONFIGURACIÓN DE MÁXIMOS POR GRUPO (Modifica los números según corresponda)
     // ------------------------------------------------------------
     const maximosPorGrupo = {
@@ -52,6 +71,21 @@ document.addEventListener('DOMContentLoaded', () => {
     groupSelect.addEventListener('change', (e) => {
         const group = e.target.value;
         if (!group) return;
+
+        // Validación de contraseña fija
+        const contrasenaCorrecta = contrasenasPorGrupo[group];
+        const inputContrasena = prompt(`Introduce la contraseña para el grupo ${group}:`);
+
+        if (inputContrasena !== contrasenaCorrecta) {
+            alert("Contraseña incorrecta. No tienes acceso a este grupo.");
+            e.target.value = ""; // Resetea el dropdown a la opción por defecto "--"
+            
+            // Oculta las secciones en caso de que hubiera un grupo cargado previamente
+            subjectIndicator.classList.add('hidden');
+            studentsSection.classList.add('hidden');
+            guidanceText.textContent = 'Elige tu grupo para ver tu calificación';
+            return;
+        }
 
         let data = [];
         if (group.startsWith('2')) {
