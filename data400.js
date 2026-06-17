@@ -1206,7 +1206,7 @@ window.data400 = {
             "extras": 9,
             "infracciones": null,
             "puntosTotales": 60,
-            "calificacionFinal": 9.0
+            "calificacionFinal": 8.0
         },
         {
             "nombre": "GARCIA MORALES EFREN FERNANDO",
@@ -1380,7 +1380,7 @@ window.data400 = {
                 { "concepto": "No entrar con su libreta en la mano", "fecha": "20/05/2026" }
             ],
             "puntosTotales": 60,
-            "calificacionFinal": 6.0
+            "calificacionFinal": 8.0
         },
         {
             "nombre": "CAMPOS GARCIA MARIA JOSE",
@@ -1400,7 +1400,7 @@ window.data400 = {
             "extras": 5,
             "infracciones": null,
             "puntosTotales": 50,
-            "calificacionFinal": 5.0
+            "calificacionFinal": 5.5
         },
         {
             "nombre": "CHAVARRIA ROJAS DANIELA GUADALUPE",
@@ -1440,7 +1440,7 @@ window.data400 = {
             "extras": 5,
             "infracciones": null,
             "puntosTotales": 60,
-            "calificacionFinal": 6.0
+            "calificacionFinal": 7.0
         },
         {
             "nombre": "GRACIANO ENRIQUEZ LILIANA NOHEMI",
