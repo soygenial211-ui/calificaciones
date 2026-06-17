@@ -284,7 +284,7 @@ window.data400 = {
             "extras": 6,
             "infracciones": null,
             "puntosTotales": 60,
-            "calificacionFinal": 10.0
+            "calificacionFinal": 9.0
         },
         {
             "nombre": "CABALLERO RODRIGUEZ KARLA",
@@ -314,7 +314,7 @@ window.data400 = {
             "extras": 5,
             "infracciones": null,
             "puntosTotales": 60,
-            "calificacionFinal": 10.0
+            "calificacionFinal": 9.0
         },
         {
             "nombre": "FAVELA MARROQUIN IDALY MARLENE",
@@ -334,7 +334,7 @@ window.data400 = {
             "extras": 4,
             "infracciones": null,
             "puntosTotales": 60,
-            "calificacionFinal": 8.5
+            "calificacionFinal": 8
         },
         {
             "nombre": "GARCIA FRANCO VALERIA",
@@ -364,7 +364,7 @@ window.data400 = {
             "extras": 5,
             "infracciones": null,
             "puntosTotales": 60,
-            "calificacionFinal": 7.0
+            "calificacionFinal": 6.0
         },
         {
             "nombre": "PARRA BARRAZA ARMANDO",
@@ -394,7 +394,7 @@ window.data400 = {
             "extras": 5,
             "infracciones": null,
             "puntosTotales": 60,
-            "calificacionFinal": 9.5
+            "calificacionFinal": 9
         },
         {
             "nombre": "RIOPEDRE MARQUEZ GEORGIA ROMINA",
@@ -438,7 +438,7 @@ window.data400 = {
             "extras": 10,
             "infracciones": null,
             "puntosTotales": 100,
-            "calificacionFinal": 10.0
+            "calificacionFinal": 9.5
         },
         {
             "nombre": "SIDA RUVALCABA JARED JOSUE",
