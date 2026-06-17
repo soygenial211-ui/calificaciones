@@ -23,14 +23,9 @@ window.data200 = {
             "trabajos": 32,
             "actitudinal": 9,
             "extras": 2,
-            "infracciones": [
-                {
-                    "concepto": "Contestar llamada en el salon",
-                    "fecha": "05/06/2026"
-                }
-            ],
+            "infracciones": [],
             "puntosTotales": 43,
-            "calificacionFinal": 6
+            "calificacionFinal": 8
         },
         {
             "nombre": "BETANCOURT ALDO IVAN",
@@ -98,7 +93,7 @@ window.data200 = {
             "extras": 1,
             "infracciones": [],
             "puntosTotales": 73,
-            "calificacionFinal": 5.5
+            "calificacionFinal": 5.2
         },
         {
             "nombre": "MARTINEZ TERRONES ELVIRA YAMILET",
@@ -462,7 +457,7 @@ window.data200 = {
             "extras": 3,
             "infracciones": [],
             "puntosTotales": 83,
-            "calificacionFinal": 9
+            "calificacionFinal": 10
         },
         {
             "nombre": "GARCIA AVILEZ MARIA FERNANDA",
@@ -570,7 +565,7 @@ window.data200 = {
             "extras": 1,
             "infracciones": [],
             "puntosTotales": 30,
-            "calificacionFinal": 9
+            "calificacionFinal": 8
         },
         {
             "nombre": "ROSAS CARBAJAL ISABELLA MADAI",
@@ -597,7 +592,7 @@ window.data200 = {
             "extras": 5,
             "infracciones": [],
             "puntosTotales": 100,
-            "calificacionFinal": 9
+            "calificacionFinal": 8
         },
         {
             "nombre": "VALENZUELA PIZAÑA ANGEL DAVID",
@@ -635,7 +630,7 @@ window.data200 = {
             "extras": 2,
             "infracciones": [],
             "puntosTotales": 62,
-            "calificacionFinal": 10
+            "calificacionFinal": 9.5
         },
         {
             "nombre": "CORRAL ARELLANO ALEXIS GIOVANNI",
@@ -752,7 +747,7 @@ window.data200 = {
             "extras": 1,
             "infracciones": [],
             "puntosTotales": 83,
-            "calificacionFinal": 10
+            "calificacionFinal": 9.5
         },
         {
             "nombre": "REYES VALENZUELA AILEEN SIOMARA",
@@ -773,22 +768,13 @@ window.data200 = {
             "calificacionFinal": 10
         },
         {
-            "nombre": "RUVALCABA NAVARRETE GIOVANNA IVONNE",
-            "trabajos": 94,
-            "actitudinal": 9,
-            "extras": 4,
-            "infracciones": [],
-            "puntosTotales": 107,
-            "calificacionFinal": 0
-        },
-        {
             "nombre": "VALENZUELA REYES PEDRO JAVIER",
             "trabajos": 41,
             "actitudinal": 6,
             "extras": 1,
             "infracciones": [],
             "puntosTotales": 48,
-            "calificacionFinal": 8
+            "calificacionFinal": 10
         }
     ],
     "205": [
@@ -808,7 +794,7 @@ window.data200 = {
             "extras": 5,
             "infracciones": [],
             "puntosTotales": 30,
-            "calificacionFinal": 7
+            "calificacionFinal": 8
         },
         {
             "nombre": "AMAYA GARCIA PAOLA MICHELTH",
@@ -817,7 +803,7 @@ window.data200 = {
             "extras": 0,
             "infracciones": [],
             "puntosTotales": 92,
-            "calificacionFinal": 9
+            "calificacionFinal": 10
         },
         {
             "nombre": "AVILA DUARTE SEBASTIAN FERNANDO",
