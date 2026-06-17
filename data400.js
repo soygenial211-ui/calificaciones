@@ -1,3 +1,5 @@
+//FALTAN GURPO 3 y 6 
+
 window.data400 = {
     "401": [
         {
@@ -8,7 +10,7 @@ window.data400 = {
             "extras": 2,
             "infracciones": null,
             "puntosTotales": 60,
-            "calificacionFinal": 6.0
+            "calificacionFinal": 7.0
         },
         {
             "nombre": "CARBAJAL SANCHEZ JOEL ANTONIO",
@@ -28,7 +30,7 @@ window.data400 = {
             "extras": 0,
             "infracciones": null,
             "puntosTotales": 50,
-            "calificacionFinal": 5.0
+            "calificacionFinal": 4.5
         },
         {
             "nombre": "GARCIA HERNANDEZ JACYD MAYLENE",
@@ -58,7 +60,7 @@ window.data400 = {
             "extras": 5,
             "infracciones": null,
             "puntosTotales": 60,
-            "calificacionFinal": 6.0
+            "calificacionFinal": 7.5
         },
         {
             "nombre": "HERNANDEZ MARTINEZ JESUS JAVIER",
@@ -138,7 +140,7 @@ window.data400 = {
             "extras": 4,
             "infracciones": null,
             "puntosTotales": 60,
-            "calificacionFinal": 6.0
+            "calificacionFinal": 5.0
         },
         {
             "nombre": "NUÑEZ ZUÑIGA JESUS ALBERTO",
@@ -188,7 +190,7 @@ window.data400 = {
             "extras": 10,
             "infracciones": null,
             "puntosTotales": 100,
-            "calificacionFinal": 10.0
+            "calificacionFinal": 9.0
         },
         {
             "nombre": "RAMIREZ RODRIGUEZ HECTOR MANUEL",
@@ -198,7 +200,7 @@ window.data400 = {
             "extras": 5,
             "infracciones": null,
             "puntosTotales": 50,
-            "calificacionFinal": 5.0
+            "calificacionFinal": 4.0
         },
         {
             "nombre": "SIDA MALDONADO JOSE MARIA",
@@ -250,7 +252,7 @@ window.data400 = {
             "extras": 5,
             "infracciones": null,
             "puntosTotales": 60,
-            "calificacionFinal": 6.0
+            "calificacionFinal": 7.0
         },
         {
             "nombre": "GALLEGOS RUIZ GERARDO YAIR",
@@ -262,7 +264,7 @@ window.data400 = {
                 { "concepto": "No saludar al entrar", "fecha": "13/05/2026" }
             ],
             "puntosTotales": 60,
-            "calificacionFinal": 6.0
+            "calificacionFinal": 7.0
         },
         {
             "nombre": "ARAMBULA BRISEÑO ANGEL MANUEL",
@@ -282,7 +284,7 @@ window.data400 = {
             "extras": 6,
             "infracciones": null,
             "puntosTotales": 60,
-            "calificacionFinal": 6.0
+            "calificacionFinal": 10.0
         },
         {
             "nombre": "CABALLERO RODRIGUEZ KARLA",
@@ -292,7 +294,7 @@ window.data400 = {
             "extras": 5,
             "infracciones": null,
             "puntosTotales": 60,
-            "calificacionFinal": 6.0
+            "calificacionFinal": 8.5
         },
         {
             "nombre": "CALDERA DE SANTIAGO CAROLINA",
@@ -312,7 +314,7 @@ window.data400 = {
             "extras": 5,
             "infracciones": null,
             "puntosTotales": 60,
-            "calificacionFinal": 6.0
+            "calificacionFinal": 10.0
         },
         {
             "nombre": "FAVELA MARROQUIN IDALY MARLENE",
@@ -322,7 +324,7 @@ window.data400 = {
             "extras": 5,
             "infracciones": null,
             "puntosTotales": 60,
-            "calificacionFinal": 6.0
+            "calificacionFinal": 7.5
         },
         {
             "nombre": "FRANCO MIJARES PAULA",
@@ -332,7 +334,7 @@ window.data400 = {
             "extras": 4,
             "infracciones": null,
             "puntosTotales": 60,
-            "calificacionFinal": 6.0
+            "calificacionFinal": 8.5
         },
         {
             "nombre": "GARCIA FRANCO VALERIA",
@@ -362,7 +364,7 @@ window.data400 = {
             "extras": 5,
             "infracciones": null,
             "puntosTotales": 60,
-            "calificacionFinal": 6.0
+            "calificacionFinal": 7.0
         },
         {
             "nombre": "PARRA BARRAZA ARMANDO",
@@ -370,9 +372,7 @@ window.data400 = {
             "proyecto": 30,
             "actitudinal": 20,
             "extras": 10,
-            "infracciones": [
-                { "concepto": "Decir Groserias", "fecha": "19/05/2026" }
-            ],
+            "infracciones": null,
             "puntosTotales": 100,
             "calificacionFinal": 10.0
         },
@@ -394,7 +394,7 @@ window.data400 = {
             "extras": 5,
             "infracciones": null,
             "puntosTotales": 60,
-            "calificacionFinal": 6.0
+            "calificacionFinal": 9.5
         },
         {
             "nombre": "RIOPEDRE MARQUEZ GEORGIA ROMINA",
@@ -404,7 +404,7 @@ window.data400 = {
             "extras": 5,
             "infracciones": null,
             "puntosTotales": 60,
-            "calificacionFinal": 6.0
+            "calificacionFinal": 8.5
         },
         {
             "nombre": "RIVERA HERRERA MARTIN GUADALUPE",
@@ -413,12 +413,10 @@ window.data400 = {
             "actitudinal": 15,
             "extras": 5,
             "infracciones": [
-                { "concepto": "Contestar llamada en clase", "fecha": "11/05/2026" },
-                { "concepto": "Contestar llamada en clase", "fecha": "11/05/2026" },
-                { "concepto": "Contestar llamada en clase", "fecha": "11/05/2026" }
+                { "concepto": "Contestar llamada en clase TRIPLE", "fecha": "11/05/2026" }
             ],
             "puntosTotales": 60,
-            "calificacionFinal": 6.0
+            "calificacionFinal": 9.0
         },
         {
             "nombre": "RUIZ GURROLA DANIEL",
@@ -427,12 +425,10 @@ window.data400 = {
             "actitudinal": 15,
             "extras": 5,
             "infracciones": [
-                { "concepto": "Contestar llamada en clase", "fecha": "02/06/2026" },
-                { "concepto": "Contestar llamada en clase", "fecha": "02/06/2026" },
-                { "concepto": "Contestar llamada en clase", "fecha": "02/06/2026" }
+                { "concepto": "Contestar llamada en clase TRIPLE", "fecha": "02/06/2026" }
             ],
             "puntosTotales": 60,
-            "calificacionFinal": 6.0
+            "calificacionFinal": 8.0
         },
         {
             "nombre": "SANTOS AVITIA JOSE GAEL",
@@ -452,7 +448,7 @@ window.data400 = {
             "extras": 5,
             "infracciones": null,
             "puntosTotales": 50,
-            "calificacionFinal": 5.0
+            "calificacionFinal": 4.5
         },
         {
             "nombre": "SOTO DOMINGUEZ GUILLERMO",
@@ -462,7 +458,7 @@ window.data400 = {
             "extras": 6,
             "infracciones": null,
             "puntosTotales": 60,
-            "calificacionFinal": 6.0
+            "calificacionFinal": 10.0
         },
         {
             "nombre": "VALENZUELA VASQUEZ ALEJANDRO",
@@ -472,7 +468,7 @@ window.data400 = {
             "extras": 5,
             "infracciones": null,
             "puntosTotales": 50,
-            "calificacionFinal": 5.0
+            "calificacionFinal": 4.3
         }
     ],
     "403": [
@@ -1210,7 +1206,7 @@ window.data400 = {
             "extras": 9,
             "infracciones": null,
             "puntosTotales": 60,
-            "calificacionFinal": 6.0
+            "calificacionFinal": 9.0
         },
         {
             "nombre": "GARCIA MORALES EFREN FERNANDO",
@@ -1240,7 +1236,7 @@ window.data400 = {
             "extras": 5,
             "infracciones": null,
             "puntosTotales": 60,
-            "calificacionFinal": 6.0
+            "calificacionFinal": 9.5
         },
         {
             "nombre": "LARA GONZALEZ ALISSON DANAE",
@@ -1300,7 +1296,7 @@ window.data400 = {
             "extras": 5,
             "infracciones": null,
             "puntosTotales": 60,
-            "calificacionFinal": 6.0
+            "calificacionFinal": 9.5
         },
         {
             "nombre": "QUIROGA MARTINEZ GAEL",
@@ -1360,7 +1356,7 @@ window.data400 = {
             "extras": 10,
             "infracciones": null,
             "puntosTotales": 100,
-            "calificacionFinal": 10.0
+            "calificacionFinal": 5.0
         },
         {
             "nombre": "RODRIGUEZ RAMIREZ OSCAR GAEL",
