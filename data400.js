@@ -472,303 +472,303 @@ window.data400 = {
         }
     ],
     "403": [
-        {
-            "nombre": "ACOSTA HERNANDEZ DIEGO",
-            "trabajos": 25,
-            "proyecto": 15,
-            "actitudinal": 15,
-            "extras": 5,
-            "infracciones": [
-                { "concepto": "Decir groserias", "fecha": "18/05/2026" }
-            ],
-            "puntosTotales": 60,
-            "calificacionFinal": 6.0
-        },
-        {
-            "nombre": "ALVAREZ REYES LEONARDO",
-            "trabajos": 40,
-            "proyecto": 30,
-            "actitudinal": 20,
-            "extras": 10,
-            "infracciones": null,
-            "puntosTotales": 100,
-            "calificacionFinal": 10.0
-        },
-        {
-            "nombre": "AVILA BERMUDEZ DAFNE ALEJANDRA",
-            "trabajos": 40,
-            "proyecto": 30,
-            "actitudinal": 20,
-            "extras": 10,
-            "infracciones": null,
-            "puntosTotales": 100,
-            "calificacionFinal": 10.0
-        },
-        {
-            "nombre": "AYALA GONZALEZ KRITZIA LILY",
-            "trabajos": 40,
-            "proyecto": 30,
-            "actitudinal": 20,
-            "extras": 10,
-            "infracciones": null,
-            "puntosTotales": 100,
-            "calificacionFinal": 10.0
-        },
-        {
-            "nombre": "CASTRO ROCHA SANTIAGO OSCAR",
-            "trabajos": 20,
-            "proyecto": 15,
-            "actitudinal": 10,
-            "extras": 5,
-            "infracciones": null,
-            "puntosTotales": 50,
-            "calificacionFinal": 5.0
-        },
-        {
-            "nombre": "CHAVEZ REYES ORLANDO ALBERTO",
-            "trabajos": 25,
-            "proyecto": 17,
-            "actitudinal": 13,
-            "extras": 5,
-            "infracciones": null,
-            "puntosTotales": 60,
-            "calificacionFinal": 6.0
-        },
-        {
-            "nombre": "DIAZ HUERTA MARIA FERNANDA",
-            "trabajos": 24,
-            "proyecto": 16,
-            "actitudinal": 14,
-            "extras": 6,
-            "infracciones": [
-                { "concepto": "No sentarse en su silla asignada", "fecha": "20/05/2026" }
-            ],
-            "puntosTotales": 60,
-            "calificacionFinal": 6.0
-        },
-        {
-            "nombre": "GALINDO FRANCO JUAN MANUEL",
-            "trabajos": 22,
-            "proyecto": 18,
-            "actitudinal": 15,
-            "extras": 5,
-            "infracciones": [
-                { "concepto": "No sentarse en su silla asignada", "fecha": "20/05/2026" }
-            ],
-            "puntosTotales": 60,
-            "calificacionFinal": 6.0
-        },
-        {
-            "nombre": "GALINDO NORIEGA MICAELA G",
-            "trabajos": 27,
-            "proyecto": 15,
-            "actitudinal": 13,
-            "extras": 5,
-            "infracciones": [
-                { "concepto": "No sentarse en su silla asignada", "fecha": "20/05/2026" }
-            ],
-            "puntosTotales": 60,
-            "calificacionFinal": 6.0
-        },
-        {
-            "nombre": "GALVAN RETANA MISAEL",
-            "trabajos": 23,
-            "proyecto": 17,
-            "actitudinal": 15,
-            "extras": 5,
-            "infracciones": [
-                { "concepto": "Decir Groserias", "fecha": "25/05/2026" },
-                { "concepto": "Decir Groserias", "fecha": "25/05/2026" },
-                { "concepto": "Decir Groserias", "fecha": "25/05/2026" }
-            ],
-            "puntosTotales": 60,
-            "calificacionFinal": 6.0
-        },
-        {
-            "nombre": "GARAY VALENZUELA KIMBERLY",
-            "trabajos": 40,
-            "proyecto": 30,
-            "actitudinal": 20,
-            "extras": 10,
-            "infracciones": null,
-            "puntosTotales": 100,
-            "calificacionFinal": 10.0
-        },
-        {
-            "nombre": "GARCIA LUNA MANUEL ERNESTO",
-            "trabajos": 20,
-            "proyecto": 15,
-            "actitudinal": 10,
-            "extras": 5,
-            "infracciones": [
-                { "concepto": "Decir groserias", "fecha": "26/05/2026" },
-                { "concepto": "Decir groserias", "fecha": "09/06/2026" },
-                { "concepto": "Usar el celular en clase", "fecha": "18/05/2026" }
-            ],
-            "puntosTotales": 50,
-            "calificacionFinal": 5.0
-        },
-        {
-            "nombre": "GONZALEZ DIAZ KEIRA ABRIL",
-            "trabajos": 26,
-            "proyecto": 18,
-            "actitudinal": 12,
-            "extras": 4,
-            "infracciones": null,
-            "puntosTotales": 60,
-            "calificacionFinal": 6.0
-        },
-        {
-            "nombre": "GURROLA ANTUNA CESAR ISAAC",
-            "trabajos": 40,
-            "proyecto": 30,
-            "actitudinal": 20,
-            "extras": 10,
-            "infracciones": null,
-            "puntosTotales": 100,
-            "calificacionFinal": 10.0
-        },
-        {
-            "nombre": "GURROLA ANTUNA JULIO ISMAEL",
-            "trabajos": 40,
-            "proyecto": 30,
-            "actitudinal": 20,
-            "extras": 10,
-            "infracciones": null,
-            "puntosTotales": 100,
-            "calificacionFinal": 10.0
-        },
-        {
-            "nombre": "HERRERA REYES EDWIN",
-            "trabajos": 40,
-            "proyecto": 30,
-            "actitudinal": 20,
-            "extras": 10,
-            "infracciones": null,
-            "puntosTotales": 100,
-            "calificacionFinal": 10.0
-        },
-        {
-            "nombre": "MORALES CANAAN JAVIER",
-            "trabajos": 24,
-            "proyecto": 16,
-            "actitudinal": 15,
-            "extras": 5,
-            "infracciones": null,
-            "puntosTotales": 60,
-            "calificacionFinal": 6.0
-        },
-        {
-            "nombre": "PIÑA ARCINIEGA ALLISSON RENATA",
-            "trabajos": 40,
-            "proyecto": 30,
-            "actitudinal": 20,
-            "extras": 10,
-            "infracciones": null,
-            "puntosTotales": 100,
-            "calificacionFinal": 10.0
-        },
-        {
-            "nombre": "REYES ESTRADA GENESIS YOMARA",
-            "trabajos": 40,
-            "proyecto": 30,
-            "actitudinal": 20,
-            "extras": 10,
-            "infracciones": null,
-            "puntosTotales": 100,
-            "calificacionFinal": 10.0
-        },
-        {
-            "nombre": "RIVAS ALVARADO ULISES ALONSO",
-            "trabajos": 40,
-            "proyecto": 30,
-            "actitudinal": 20,
-            "extras": 10,
-            "infracciones": null,
-            "puntosTotales": 100,
-            "calificacionFinal": 10.0
-        },
-        {
-            "nombre": "RIVAS VELAZQUEZ GERARDO ISAAC",
-            "trabajos": 40,
-            "proyecto": 30,
-            "actitudinal": 20,
-            "extras": 10,
-            "infracciones": null,
-            "puntosTotales": 100,
-            "calificacionFinal": 10.0
-        },
-        {
-            "nombre": "RODRIGUEZ CARRASCO MIRIAM",
-            "trabajos": 40,
-            "proyecto": 30,
-            "actitudinal": 20,
-            "extras": 10,
-            "infracciones": null,
-            "puntosTotales": 100,
-            "calificacionFinal": 10.0
-        },
-        {
-            "nombre": "SANTOS HERRERA JIMENA",
-            "trabajos": 40,
-            "proyecto": 30,
-            "actitudinal": 20,
-            "extras": 10,
-            "infracciones": null,
-            "puntosTotales": 100,
-            "calificacionFinal": 10.0
-        },
-        {
-            "nombre": "TERRAZAS ACOSTA HANNA YISEL",
-            "trabajos": 40,
-            "proyecto": 30,
-            "actitudinal": 20,
-            "extras": 10,
-            "infracciones": null,
-            "puntosTotales": 100,
-            "calificacionFinal": 10.0
-        },
-        {
-            "nombre": "VALENZUELA MENDOZA MAYTE V",
-            "trabajos": 40,
-            "proyecto": 30,
-            "actitudinal": 20,
-            "extras": 10,
-            "infracciones": null,
-            "puntosTotales": 100,
-            "calificacionFinal": 10.0
-        },
-        {
-            "nombre": "ZEGER VASQUEZ YUSEI",
-            "trabajos": 40,
-            "proyecto": 30,
-            "actitudinal": 20,
-            "extras": 10,
-            "infracciones": null,
-            "puntosTotales": 100,
-            "calificacionFinal": 10.0
-        },
-        {
-            "nombre": "BERNAL SARIÑANA GUILLERMO ANTONIO",
-            "trabajos": 20,
-            "proyecto": 15,
-            "actitudinal": 10,
-            "extras": 5,
-            "infracciones": null,
-            "puntosTotales": 50,
-            "calificacionFinal": 5.0
-        },
-        {
-            "nombre": "COLIN SARABIA XANA CAMILA",
-            "trabajos": 25,
-            "proyecto": 15,
-            "actitudinal": 15,
-            "extras": 5,
-            "infracciones": null,
-            "puntosTotales": 60,
-            "calificacionFinal": 6.0
-        }
-    ],
+    {
+      "nombre": "ACOSTA HERNANDEZ DIEGO",
+      "trabajos": 25,
+      "proyecto": 15,
+      "actitudinal": 15,
+      "extras": 5,
+      "infracciones": [
+        { "concepto": "Decir groserias", "fecha": "18/05/2026" }
+      ],
+      "puntosTotales": 60,
+      "calificacionFinal": 4
+    },
+    {
+      "nombre": "ALVAREZ REYES LEONARDO",
+      "trabajos": 40,
+      "proyecto": 30,
+      "actitudinal": 20,
+      "extras": 10,
+      "infracciones": null,
+      "puntosTotales": 100,
+      "calificacionFinal": 9.5
+    },
+    {
+      "nombre": "AVILA BERMUDEZ DAFNE ALEJANDRA",
+      "trabajos": 40,
+      "proyecto": 30,
+      "actitudinal": 20,
+      "extras": 10,
+      "infracciones": null,
+      "puntosTotales": 100,
+      "calificacionFinal": 10
+    },
+    {
+      "nombre": "AYALA GONZALEZ KRITZIA LILY",
+      "trabajos": 40,
+      "proyecto": 30,
+      "actitudinal": 20,
+      "extras": 10,
+      "infracciones": null,
+      "puntosTotales": 100,
+      "calificacionFinal": 10
+    },
+    {
+      "nombre": "CASTRO ROCHA SANTIAGO OSCAR",
+      "trabajos": 20,
+      "proyecto": 15,
+      "actitudinal": 10,
+      "extras": 5,
+      "infracciones": null,
+      "puntosTotales": 50,
+      "calificacionFinal": 5.5
+    },
+    {
+      "nombre": "CHAVEZ REYES ORLANDO ALBERTO",
+      "trabajos": 25,
+      "proyecto": 17,
+      "actitudinal": 13,
+      "extras": 5,
+      "infracciones": null,
+      "puntosTotales": 60,
+      "calificacionFinal": 6.5
+    },
+    {
+      "nombre": "DIAZ HUERTA MARIA FERNANDA",
+      "trabajos": 24,
+      "proyecto": 16,
+      "actitudinal": 14,
+      "extras": 6,
+      "infracciones": [
+        { "concepto": "No sentarse en su silla asignada", "fecha": "20/05/2026" }
+      ],
+      "puntosTotales": 60,
+      "calificacionFinal": 9
+    },
+    {
+      "nombre": "GALINDO FRANCO JUAN MANUEL",
+      "trabajos": 22,
+      "proyecto": 18,
+      "actitudinal": 15,
+      "extras": 5,
+      "infracciones": [
+        { "concepto": "No sentarse en su silla asignada", "fecha": "20/05/2026" }
+      ],
+      "puntosTotales": 60,
+      "calificacionFinal": 6.5
+    },
+    {
+      "nombre": "GALINDO NORIEGA MICAELA G",
+      "trabajos": 27,
+      "proyecto": 15,
+      "actitudinal": 13,
+      "extras": 5,
+      "infracciones": [
+        { "concepto": "No sentarse en su silla asignada", "fecha": "20/05/2026" }
+      ],
+      "puntosTotales": 60,
+      "calificacionFinal": 7.5
+    },
+    {
+      "nombre": "GALVAN RETANA MISAEL",
+      "trabajos": 23,
+      "proyecto": 17,
+      "actitudinal": 15,
+      "extras": 5,
+      "infracciones": [
+        { "concepto": "Decir Groserias", "fecha": "25/05/2026" },
+        { "concepto": "Decir Groserias", "fecha": "25/05/2026" },
+        { "concepto": "Decir Groserias", "fecha": "25/05/2026" }
+      ],
+      "puntosTotales": 60,
+      "calificacionFinal": 6
+    },
+    {
+      "nombre": "GARAY VALENZUELA KIMBERLY",
+      "trabajos": 40,
+      "proyecto": 30,
+      "actitudinal": 20,
+      "extras": 10,
+      "infracciones": null,
+      "puntosTotales": 100,
+      "calificacionFinal": 10
+    },
+    {
+      "nombre": "GARCIA LUNA MANUEL ERNESTO",
+      "trabajos": 20,
+      "proyecto": 15,
+      "actitudinal": 10,
+      "extras": 5,
+      "infracciones": [
+        { "concepto": "Decir groserias", "fecha": "26/05/2026" },
+        { "concepto": "Decir groserias", "fecha": "09/06/2026" },
+        { "concepto": "Usar el celular en clase", "fecha": "18/05/2026" }
+      ],
+      "puntosTotales": 50,
+      "calificacionFinal": 4
+    },
+    {
+      "nombre": "GONZALEZ DIAZ KEIRA ABRIL",
+      "trabajos": 26,
+      "proyecto": 18,
+      "actitudinal": 12,
+      "extras": 4,
+      "infracciones": null,
+      "puntosTotales": 60,
+      "calificacionFinal": 8
+    },
+    {
+      "nombre": "GURROLA ANTUNA CESAR ISAAC",
+      "trabajos": 40,
+      "proyecto": 30,
+      "actitudinal": 20,
+      "extras": 10,
+      "infracciones": null,
+      "puntosTotales": 100,
+      "calificacionFinal": 10
+    },
+    {
+      "nombre": "GURROLA ANTUNA JULIO ISMAEL",
+      "trabajos": 40,
+      "proyecto": 30,
+      "actitudinal": 20,
+      "extras": 10,
+      "infracciones": null,
+      "puntosTotales": 100,
+      "calificacionFinal": 10
+    },
+    {
+      "nombre": "HERRERA REYES EDWIN",
+      "trabajos": 40,
+      "proyecto": 30,
+      "actitudinal": 20,
+      "extras": 10,
+      "infracciones": null,
+      "puntosTotales": 100,
+      "calificacionFinal": 10
+    },
+    {
+      "nombre": "MORALES CANAAN JAVIER",
+      "trabajos": 24,
+      "proyecto": 16,
+      "actitudinal": 15,
+      "extras": 5,
+      "infracciones": null,
+      "puntosTotales": 60,
+      "calificacionFinal": 6
+    },
+    {
+      "nombre": "PIÑA ARCINIEGA ALLISSON RENATA",
+      "trabajos": 40,
+      "proyecto": 30,
+      "actitudinal": 20,
+      "extras": 10,
+      "infracciones": null,
+      "puntosTotales": 100,
+      "calificacionFinal": 9.5
+    },
+    {
+      "nombre": "REYES ESTRADA GENESIS YOMARA",
+      "trabajos": 40,
+      "proyecto": 30,
+      "actitudinal": 20,
+      "extras": 10,
+      "infracciones": null,
+      "puntosTotales": 100,
+      "calificacionFinal": 10
+    },
+    {
+      "nombre": "RIVAS ALVARADO ULISES ALONSO",
+      "trabajos": 40,
+      "proyecto": 30,
+      "actitudinal": 20,
+      "extras": 10,
+      "infracciones": null,
+      "puntosTotales": 100,
+      "calificacionFinal": 10
+    },
+    {
+      "nombre": "RIVAS VELAZQUEZ GERARDO ISAAC",
+      "trabajos": 40,
+      "proyecto": 30,
+      "actitudinal": 20,
+      "extras": 10,
+      "infracciones": null,
+      "puntosTotales": 100,
+      "calificacionFinal": 9.5
+    },
+    {
+      "nombre": "RODRIGUEZ CARRASCO MIRIAM",
+      "trabajos": 40,
+      "proyecto": 30,
+      "actitudinal": 20,
+      "extras": 10,
+      "infracciones": null,
+      "puntosTotales": 100,
+      "calificacionFinal": 10
+    },
+    {
+      "nombre": "SANTOS HERRERA JIMENA",
+      "trabajos": 40,
+      "proyecto": 30,
+      "actitudinal": 20,
+      "extras": 10,
+      "infracciones": null,
+      "puntosTotales": 100,
+      "calificacionFinal": 10
+    },
+    {
+      "nombre": "TERRAZAS ACOSTA HANNA YISEL",
+      "trabajos": 40,
+      "proyecto": 30,
+      "actitudinal": 20,
+      "extras": 10,
+      "infracciones": null,
+      "puntosTotales": 100,
+      "calificacionFinal": 10
+    },
+    {
+      "nombre": "VALENZUELA MENDOZA MAYTE V",
+      "trabajos": 40,
+      "proyecto": 30,
+      "actitudinal": 20,
+      "extras": 10,
+      "infracciones": null,
+      "puntosTotales": 100,
+      "calificacionFinal": 10
+    },
+    {
+      "nombre": "ZEGER VASQUEZ YUSEI",
+      "trabajos": 40,
+      "proyecto": 30,
+      "actitudinal": 20,
+      "extras": 10,
+      "infracciones": null,
+      "puntosTotales": 100,
+      "calificacionFinal": 10
+    },
+    {
+      "nombre": "BERNAL SARIÑANA GUILLERMO ANTONIO",
+      "trabajos": 20,
+      "proyecto": 15,
+      "actitudinal": 10,
+      "extras": 5,
+      "infracciones": null,
+      "puntosTotales": 50,
+      "calificacionFinal": 4
+    },
+    {
+      "nombre": "COLIN SARABIA XANA CAMILA",
+      "trabajos": 25,
+      "proyecto": 15,
+      "actitudinal": 15,
+      "extras": 5,
+      "infracciones": null,
+      "puntosTotales": 60,
+      "calificacionFinal": 6
+    }
+  ],
     "404": [
         {
             "nombre": "ALAMILLO INSURRIAGA JUAN AGUSTIN",
@@ -946,9 +946,7 @@ window.data400 = {
             "proyecto": 30,
             "actitudinal": 20,
             "extras": 10,
-            "infracciones": [
-                { "concepto": "Usar el celular", "fecha": "19/05/2026" }
-            ],
+            "infracciones": null,
             "puntosTotales": 100,
             "calificacionFinal": 10.0
         },
