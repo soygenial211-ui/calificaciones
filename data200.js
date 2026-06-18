@@ -214,205 +214,205 @@ window.data200 = {
         }
     ],
     "202": [
-        {
-            "nombre": "ADAME NUÑEZ EDUARDO IVAN",
-            "trabajos": 34,
-            "actitudinal": 7,
-            "extras": 2,
-            "infracciones": [],
-            "puntosTotales": 43,
-            "calificacionFinal": 7
-        },
-        {
-            "nombre": "BARRAZA SANABRIA UBALDO DE JESUS",
-            "trabajos": 81,
-            "actitudinal": 9,
-            "extras": 4,
-            "infracciones": [],
-            "puntosTotales": 94,
-            "calificacionFinal": 10
-        },
-        {
-            "nombre": "CASTRO QUIÑONES PABLO ADRIAN",
-            "trabajos": 52,
-            "actitudinal": 5,
-            "extras": 0,
-            "infracciones": [],
-            "puntosTotales": 57,
-            "calificacionFinal": 10
-        },
-        {
-            "nombre": "CORONADO MARROQUIN DAISY ARACELY",
-            "trabajos": 16,
-            "actitudinal": 8,
-            "extras": 1,
-            "infracciones": [],
-            "puntosTotales": 25,
-            "calificacionFinal": 5.2
-        },
-        {
-            "nombre": "DIAZ HERRERA JOSUE FERNANDO",
-            "trabajos": 63,
-            "actitudinal": 6,
-            "extras": 3,
-            "infracciones": [],
-            "puntosTotales": 72,
-            "calificacionFinal": 6.1
-        },
-        {
-            "nombre": "DURON FERNANDEZ ETHAN NOE",
-            "trabajos": 40,
-            "actitudinal": 10,
-            "extras": 5,
-            "infracciones": [],
-            "puntosTotales": 55,
-            "calificacionFinal": 6.1
-        },
-        {
-            "nombre": "ESPINOZA PRENDIZ LUZ ARIANA",
-            "trabajos": 27,
-            "actitudinal": 4,
-            "extras": 0,
-            "infracciones": [],
-            "puntosTotales": 31,
-            "calificacionFinal": 6.1
-        },
-        {
-            "nombre": "FAVELA MARROQUIN VIANEY JAQUELINE",
-            "trabajos": 73,
-            "actitudinal": 8,
-            "extras": 2,
-            "infracciones": [],
-            "puntosTotales": 83,
-            "calificacionFinal": 6.1
-        },
-        {
-            "nombre": "LOPEZ AYALA EFREN JOEL",
-            "trabajos": 19,
-            "actitudinal": 5,
-            "extras": 1,
-            "infracciones": [],
-            "puntosTotales": 25,
-            "calificacionFinal": 8
-        },
-        {
-            "nombre": "RIVERA MARTINEZ KIMBERLY GUADALUPE",
-            "trabajos": 58,
-            "actitudinal": 7,
-            "extras": 0,
-            "infracciones": [],
-            "puntosTotales": 65,
-            "calificacionFinal": 10
-        },
-        {
-            "nombre": "OBREGON GONZALEZ MIGUEL ANGEL",
-            "trabajos": 89,
-            "actitudinal": 9,
-            "extras": 4,
-            "infracciones": [],
-            "puntosTotales": 102,
-            "calificacionFinal": 6.5
-        },
-        {
-            "nombre": "OROZCO PAYAN RASHID ISAAC",
-            "trabajos": 45,
-            "actitudinal": 6,
-            "extras": 2,
-            "infracciones": [],
-            "puntosTotales": 53,
-            "calificacionFinal": 10
-        },
-        {
-            "nombre": "ORTEGA NEVAREZ SANTIAGO",
-            "trabajos": 12,
-            "actitudinal": 4,
-            "extras": 0,
-            "infracciones": [],
-            "puntosTotales": 16,
-            "calificacionFinal": 6.5
-        },
-        {
-            "nombre": "PAYAN NAVARRETE OSVALDO ZAMIR",
-            "trabajos": 66,
-            "actitudinal": 10,
-            "extras": 5,
-            "infracciones": [],
-            "puntosTotales": 81,
-            "calificacionFinal": 8.5
-        },
-        {
-            "nombre": "QUEVEDO MARIN FERNANDO",
-            "trabajos": 31,
-            "actitudinal": 8,
-            "extras": 1,
-            "infracciones": [],
-            "puntosTotales": 40,
-            "calificacionFinal": 10
-        },
-        {
-            "nombre": "REYES QUEZADA DIEGO",
-            "trabajos": 78,
-            "actitudinal": 5,
-            "extras": 3,
-            "infracciones": [],
-            "puntosTotales": 86,
-            "calificacionFinal": 6
-        },
-        {
-            "nombre": "RIOPEDRE MARQUEZ IRVING IVAN",
-            "trabajos": 50,
-            "actitudinal": 9,
-            "extras": 2,
-            "infracciones": [],
-            "puntosTotales": 61,
-            "calificacionFinal": 10
-        },
-        {
-            "nombre": "RODRIGUEZ MORENO JENNIFER MICHELL",
-            "trabajos": 22,
-            "actitudinal": 6,
-            "extras": 0,
-            "infracciones": [],
-            "puntosTotales": 28,
-            "calificacionFinal": 5.8
-        },
-        {
-            "nombre": "ROSAS MORALES HAZIEL",
-            "trabajos": 94,
-            "actitudinal": 8,
-            "extras": 4,
-            "infracciones": [],
-            "puntosTotales": 106,
-            "calificacionFinal": 8.5
-        },
-        {
-            "nombre": "RUIZ ARREOLA PEDRO",
-            "trabajos": 41,
-            "actitudinal": 7,
-            "extras": 1,
-            "infracciones": [],
-            "puntosTotales": 49,
-            "calificacionFinal": 10
-        },
-        {
-            "nombre": "SANTOS GUTIERREZ OSCAR ALEJANDRO",
-            "trabajos": 60,
-            "actitudinal": 10,
-            "extras": 3,
-            "infracciones": [],
-            "puntosTotales": 73,
-            "calificacionFinal": 10
-        },
-        {
-            "nombre": "VELAZQUEZ SANCHEZ PAUL ESAU",
-            "trabajos": 15,
-            "actitudinal": 5,
-            "extras": 0,
-            "infracciones": [],
-            "puntosTotales": 20,
-            "calificacionFinal": 7
-        }
-    ],
+    {
+        "nombre": "ADAME NUÑEZ EDUARDO IVAN",
+        "trabajos": 34,
+        "actitudinal": 7,
+        "extras": 2,
+        "infracciones": [],
+        "puntosTotales": 43,
+        "calificacionFinal": 8
+    },
+    {
+        "nombre": "BARRAZA SANABRIA UBALDO DE JESUS",
+        "trabajos": 81,
+        "actitudinal": 9,
+        "extras": 4,
+        "infracciones": [],
+        "puntosTotales": 94,
+        "calificacionFinal": 10
+    },
+    {
+        "nombre": "CASTRO QUIÑONES PABLO ADRIAN",
+        "trabajos": 52,
+        "actitudinal": 5,
+        "extras": 0,
+        "infracciones": [],
+        "puntosTotales": 57,
+        "calificacionFinal": 9
+    },
+    {
+        "nombre": "CORONADO MARROQUIN DAISY ARACELY",
+        "trabajos": 16,
+        "actitudinal": 8,
+        "extras": 1,
+        "infracciones": [],
+        "puntosTotales": 25,
+        "calificacionFinal": 5
+    },
+    {
+        "nombre": "DIAZ HERRERA JOSUE FERNANDO",
+        "trabajos": 63,
+        "actitudinal": 6,
+        "extras": 3,
+        "infracciones": [],
+        "puntosTotales": 72,
+        "calificacionFinal": 7
+    },
+    {
+        "nombre": "DURON FERNANDEZ ETHAN NOE",
+        "trabajos": 40,
+        "actitudinal": 10,
+        "extras": 5,
+        "infracciones": [],
+        "puntosTotales": 55,
+        "calificacionFinal": 7
+    },
+    {
+        "nombre": "FAVELA MARROQUIN VIANEY JAQUELINE",
+        "trabajos": 73,
+        "actitudinal": 8,
+        "extras": 2,
+        "infracciones": [],
+        "puntosTotales": 83,
+        "calificacionFinal": 6
+    },
+    {
+        "nombre": "LOPEZ AYALA EFREN JOEL",
+        "trabajos": 19,
+        "actitudinal": 5,
+        "extras": 1,
+        "infracciones": [],
+        "puntosTotales": 25,
+        "calificacionFinal": 5
+    },
+    {
+        "nombre": "RIVERA MARTINEZ KIMBERLY GUADALUPE",
+        "trabajos": 58,
+        "actitudinal": 7,
+        "extras": 0,
+        "infracciones": [],
+        "puntosTotales": 65,
+        "calificacionFinal": 9
+    },
+    {
+        "nombre": "OBREGON GONZALEZ MIGUEL ANGEL",
+        "trabajos": 89,
+        "actitudinal": 9,
+        "extras": 4,
+        "infracciones": [],
+        "puntosTotales": 102,
+        "calificacionFinal": 5
+    },
+    {
+        "nombre": "OROZCO PAYAN RASHID ISAAC",
+        "trabajos": 45,
+        "actitudinal": 6,
+        "extras": 2,
+        "infracciones": [],
+        "puntosTotales": 53,
+        "calificacionFinal": 10
+    },
+    {
+        "nombre": "ORTEGA NEVAREZ SANTIAGO",
+        "trabajos": 12,
+        "actitudinal": 4,
+        "extras": 0,
+        "infracciones": [],
+        "puntosTotales": 16,
+        "calificacionFinal": 7
+    },
+    {
+        "nombre": "PAYAN NAVARRETE OSVALDO ZAMIR",
+        "trabajos": 66,
+        "actitudinal": 10,
+        "extras": 5,
+        "infracciones": [],
+        "puntosTotales": 81,
+        "calificacionFinal": 8
+    },
+    {
+        "nombre": "QUEVEDO MARIN FERNANDO",
+        "trabajos": 31,
+        "actitudinal": 8,
+        "extras": 1,
+        "infracciones": [],
+        "puntosTotales": 40,
+        "calificacionFinal": 9
+    },
+    {
+        "nombre": "REYES QUEZADA DIEGO",
+        "trabajos": 78,
+        "actitudinal": 5,
+        "extras": 3,
+        "infracciones": [],
+        "puntosTotales": 86,
+        "calificacionFinal": 7
+    },
+    {
+        "nombre": "RIOPEDRE MARQUEZ IRVING IVAN",
+        "trabajos": 50,
+        "actitudinal": 9,
+        "extras": 2,
+        "infracciones": [],
+        "puntosTotales": 61,
+        "calificacionFinal": 9
+    },
+    {
+        "nombre": "ESPINOZA PRENDIZ LUZ ARIANA",
+        "trabajos": 27,
+        "actitudinal": 4,
+        "extras": 0,
+        "infracciones": [],
+        "puntosTotales": 31,
+        "calificacionFinal": 5
+    },
+    {
+        "nombre": "RODRIGUEZ MORENO JENNIFER MICHELL",
+        "trabajos": 22,
+        "actitudinal": 6,
+        "extras": 0,
+        "infracciones": [],
+        "puntosTotales": 28,
+        "calificacionFinal": 5
+    },
+    {
+        "nombre": "ROSAS MORALES HAZIEL",
+        "trabajos": 94,
+        "actitudinal": 8,
+        "extras": 4,
+        "infracciones": [],
+        "puntosTotales": 106,
+        "calificacionFinal": 8
+    },
+    {
+        "nombre": "RUIZ ARREOLA PEDRO",
+        "trabajos": 41,
+        "actitudinal": 7,
+        "extras": 1,
+        "infracciones": [],
+        "puntosTotales": 49,
+        "calificacionFinal": 10
+    },
+    {
+        "nombre": "SANTOS GUTIERREZ OSCAR ALEJANDRO",
+        "trabajos": 60,
+        "actitudinal": 10,
+        "extras": 3,
+        "infracciones": [],
+        "puntosTotales": 73,
+        "calificacionFinal": 10
+    },
+    {
+        "nombre": "VELAZQUEZ SANCHEZ PAUL ESAU",
+        "trabajos": 15,
+        "actitudinal": 5,
+        "extras": 0,
+        "infracciones": [],
+        "puntosTotales": 20,
+        "calificacionFinal": 7
+    }
+],
     "203": [
         {
             "nombre": "CANO GAMBOA BRISA ELIZABETH",
