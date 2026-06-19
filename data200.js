@@ -111,7 +111,7 @@ window.data200 = {
             "extras": 0,
             "infracciones": [],
             "puntosTotales": 34,
-            "calificacionFinal": 5.5
+            "calificacionFinal": 6.5
         },
         {
             "nombre": "OLGUIN CORRAL ALEXIS ARTURO",
@@ -410,7 +410,7 @@ window.data200 = {
         "extras": 0,
         "infracciones": [],
         "puntosTotales": 20,
-        "calificacionFinal": 7
+        "calificacionFinal": 9
     }
 ],
     "203": [
