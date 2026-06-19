@@ -284,7 +284,7 @@ window.data200 = {
         "extras": 1,
         "infracciones": [],
         "puntosTotales": 25,
-        "calificacionFinal": 5
+        "calificacionFinal": 7.5
     },
     {
         "nombre": "RIVERA MARTINEZ KIMBERLY GUADALUPE",
@@ -302,7 +302,7 @@ window.data200 = {
         "extras": 4,
         "infracciones": [],
         "puntosTotales": 102,
-        "calificacionFinal": 5
+        "calificacionFinal": 7.5
     },
     {
         "nombre": "OROZCO PAYAN RASHID ISAAC",
